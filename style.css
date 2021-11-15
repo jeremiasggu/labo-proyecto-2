@@ -1,0 +1,93 @@
+* {
+    font-family: 'Poppins', sans-serif;;
+}
+
+body {
+    background-color: rgb(114, 250, 216);
+}
+
+header {
+    background-color: rgb(123, 233, 95);
+}
+
+.Redes p {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+
+nav {
+    
+    background-color: rgb(90, 205, 90);
+    
+}
+
+aside {
+    background-color: rgb(130, 238, 197);
+}
+
+main {
+    background-color: rgb(102, 227, 231);
+}
+
+.imgredes {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(105, 228, 105);
+}
+
+.imgredes p{
+    text-align: end;
+    float: right;
+    margin-right: 30px;
+}
+
+
+.aElectro {
+    margin: 50px;
+}
+
+aside {
+    text-align: center;
+    display: inline;
+    height: 600px;
+    width: 25%;
+    position: relative;
+    float: left;
+}
+
+main {
+    text-align: center;
+    display: inline;
+    width: 50%;
+    float: left;
+    height: 600px;
+}
+
+.publicidad {
+    text-align: center;
+    background-color: rgb(125, 240, 215);
+    display: inline;
+    width: 25%;
+    height: 600px;
+    float: left;
+}
+.publicidad img{
+    height: 250px;
+    width: auto;
+}
+
+footer {
+    clear: left;
+    text-align: center;
+}
+
+.image {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+}
+
+h1 {
+    display: inline-block;
+}
