@@ -68,9 +68,10 @@ main {
 
 .publicidad {
     border: 1px solid green;
-    text-align: center;
+    display: flex;
     background-color: rgb(125, 240, 215);
-    display: inline;
+    flex-direction: column;
+    align-items: center;
     width: 24.6%;
     height: 600px;
     float: left;
