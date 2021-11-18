@@ -11,6 +11,9 @@ header {
     border: 1px solid black;
     background-color: rgb(123, 233, 95);
 }
+header  div  img:hover{
+    src:"images/iconos2.jpg"
+}
 
 .Redes p {
     display: inline-block;
@@ -48,12 +51,22 @@ nav {
 aside {
     border: 1px solid red;
     background-color: rgb(130, 238, 197);
-    text-align: center;
-    display: inline;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     height: 600px;
     width: 25%;
     position: relative;
     float: left;
+}
+aside > div {
+    margin: 3px;
+    border: 1px solid black;
+}
+aside > div > img {
+    height: 50px;
+    width: 75%;
+
 }
 
 main {
